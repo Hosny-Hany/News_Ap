@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:tabMode="scrollable"
-        android:background="#7DB6DC"
+        android:background="#47A32E"
         />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/News_Recycler"

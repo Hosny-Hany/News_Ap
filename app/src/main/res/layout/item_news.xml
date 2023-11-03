@@ -5,7 +5,7 @@
     <data>
         <variable
             name="News"
-            type="com.route.news_application.API.Api.NewsResponce.News" />
+            type="com.route.news_application.Data.Api.model.NewsResponce.News" />
 
     </data>
 
@@ -24,8 +24,8 @@
 
         <TextView
             android:id="@+id/Ttle_News"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="@{News.title}"
             android:textColor="@color/black"
             android:textSize="21sp"
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:lines="2"
+            android:lines="1"
             android:maxLines="2"
             android:text="@{News.description}"/>
     </LinearLayout>
